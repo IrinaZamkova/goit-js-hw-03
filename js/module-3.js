@@ -21,7 +21,7 @@ console.log(
     helen: 1,
     lorence: 99,
   }),
-); // lorence
+);
 
 console.log(
   findBestEmployee({
@@ -29,7 +29,7 @@ console.log(
     mango: 17,
     ajax: 4,
   }),
-); // mango
+); 
 
 console.log(
   findBestEmployee({
@@ -38,4 +38,4 @@ console.log(
     kiwi: 19,
     chelsy: 38,
   }),
-); // lux
+); 
