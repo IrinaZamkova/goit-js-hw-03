@@ -9,9 +9,8 @@ const products = [
 const getAllPropValues = function (arr, prop) {
   let propValues = [];
   for (let product of arr) {
-    if (prop in product) {
       propValues.push(product[prop]);
-    }
+
   }
   return propValues;
 };
